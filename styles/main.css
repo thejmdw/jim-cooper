@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+
+h1, h3, h4 {
+  margin: .5em 0;
+}
+
+#container {
+  border: 2px solid black;
+  /* display: flex; */
+  padding: 1em;
+}
+
+.rep {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+
+.info {
+  border: 2px solid black;
+  text-align: center;
+  margin: 0 0 1em 0;
+}
+
+.comm {
+  border: 2px solid black;
+  text-align: center;
+  width: 20em;
+  margin: 0 0 1em 0;
+}
+.comm__list {
+  display: inline-block;
+  text-align: left;
+}
+
+.legis {
+  border: 2px solid black;
+  text-align: center;
+  /* width: 40em; */
+  /* margin: 0 0 1em 0; */
+}
+.legis__list {
+  display: inline-block;
+  text-align: left;
+}
+p {
+  margin: 0px;
+}
